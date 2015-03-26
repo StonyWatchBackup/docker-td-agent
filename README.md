@@ -11,7 +11,7 @@ Advantages over other fluentd/td-agent Dockerfiles:
 Usage
 =====
 
-    docker build -t pebble/docker-fluentd-td .
+    docker build -t pebble/docker-td-agent .
     docker run -p 24224:24224 -e TD_API_KEY=APIKEYGOESHERE pebble/docker-fluentd-td
 
 See also
