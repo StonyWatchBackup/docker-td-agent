@@ -14,6 +14,9 @@ Usage
     docker build -t pebble/docker-td-agent .
     docker run -p 24224:24224 -e TD_API_KEY=APIKEYGOESHERE pebble/docker-td-agent
 
+
+Make sure to send incoming requests using `td.[service_name].[type]` as the name of your syslog requests.
+
 See also
 ========
 
